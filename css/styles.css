@@ -1,0 +1,28 @@
+.logo{
+    display: block;
+    margin:0 auto
+}
+.FAQ{
+    font-size: 3.5rem;
+}
+a{
+    text-decoration: none !important;
+    color: #ffffff
+}
+a:hover{
+    color: #cccdce;
+}
+.primary-color{
+    height: 100vh;
+    background-color: #005184;
+}
+.card{
+    background-color: transparent;
+    color: #FFFF;
+    border: 1px solid white;
+    margin-bottom: 5px;
+    border-radius: 0;
+}
+.card-header{
+    border-bottom: 1px solid white;
+}
