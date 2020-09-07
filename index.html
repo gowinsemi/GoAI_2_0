@@ -11,15 +11,24 @@
     <title>Hello, world!</title>
   </head>
   <body>
-      <div class="container">
-          <div class="row">
-              <div class="col-12">
-                  <img src="./images/download.jfif" alt="logo" class="logo">
+      <div class="container my-3">
+          <div class="row ">
+              <div class="col-3">
+                  <img src="./images/image.png" alt="logo" width="80%">
+                </div>
+                  <div class="col-lg-6">
+                    <div class="input-group ">
+                      <input type="text" class="form-control my-5  py-2" placeholder="Search for..." aria-label="Search for..." style="border-radius: 0;">
+                    </div>
+                </div>
+                <div class="col-3">
+
+                  <img src="./images/download.jfif" alt="logo">
                 </div>
               </div>
               <div class="row primary-color">
                 <div class="col-12 ">
-                  <h2 class="FAQ  text-center text-white py-5">FAQ</h2>
+                  <h2 class="FAQ  text-center text-white py-5">GoAI 2.0 FAQ</h2>
                   <div class="row">
                     <div class="offset-md-2 col-md-8">
                         <div id="accordion" role="tablist">
@@ -33,7 +42,7 @@
                               </h5>
                             </div>
                             
-                            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
                               <div class="card-body">
                                 The person detection model (Mobilenet v1) uses a 96x96 video input.  Most models only need a small input image to work well.  So, the 640x480 image needs to be downscaled to 96x96.  This isn’t hard to update and there is already the code for doing this in the design (just not shown in the diagram).  For the OV2640 camera we use, we place the camera in QQVGA mode which is 160x120 and then downscale to 96x96. Downscaling is just some counters to skip some pixels and lines.  The model also works on monochrome images, so you’ll need to just keep the Y component of the incoming YCbCr data.
                               </div>
