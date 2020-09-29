@@ -32,6 +32,7 @@
                   <div class="row">
                     <div class="offset-md-2 col-md-8">
                         <div id="accordion" role="tablist">
+                          
                           <div class="card">
                             <div class="card-header" role="tab" id="headingOne">
                               <h5 class="mb-0">
@@ -41,13 +42,13 @@
                                 </a>
                               </h5>
                             </div>
-                            
                             <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
                               <div class="card-body">
                                 The person detection model (Mobilenet v1) uses a 96x96 video input.  Most models only need a small input image to work well.  So, the 640x480 image needs to be downscaled to 96x96.  This isn’t hard to update and there is already the code for doing this in the design (just not shown in the diagram).  For the OV2640 camera we use, we place the camera in QQVGA mode which is 160x120 and then downscale to 96x96. Downscaling is just some counters to skip some pixels and lines.  The model also works on monochrome images, so you’ll need to just keep the Y component of the incoming YCbCr data.
                               </div>
                             </div>
                           </div>
+                          
                           <div class="card">
                             <div class="card-header" role="tab" id="headingTwo">
                               <h5 class="mb-0">
@@ -63,6 +64,7 @@
                               </div>
                             </div>
                           </div>
+                          
                           <div class="card">
                             <div class="card-header" role="tab" id="headingThree">
                               <h5 class="mb-0">
@@ -77,6 +79,7 @@
                               </div>
                             </div>
                           </div>
+                          
                           <div class="card">
                             <div class="card-header" role="tab" id="headingThree">
                               <h5 class="mb-0">
@@ -91,6 +94,7 @@
                               </div>
                             </div>
                           </div>
+                          
                           <div class="card">
                             <div class="card-header" role="tab" id="headingThree">
                               <h5 class="mb-0">
@@ -107,6 +111,7 @@
                               </div>
                             </div>
                           </div>
+                          
                           <div class="card">
                             <div class="card-header" role="tab" id="headingThree">
                               <h5 class="mb-0">
@@ -122,6 +127,7 @@
                               </div>
                             </div>
                           </div>
+                          
                           <div class="card">
                             <div class="card-header" role="tab" id="headingThree">
                               <h5 class="mb-0">
@@ -130,12 +136,13 @@
                                 </a>
                               </h5>
                             </div>
-                            <div id="collapsesix" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div id="collapseseven" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
                               <div class="card-body">
                                 No, Machine learning models can be developed to detect multiple outputs from the same model.  This means that one GoAI machine learning processor can be used for multiple outputs.
                               </div>
                             </div>
                           </div>
+                          
                           <div class="card">
                             <div class="card-header" role="tab" id="headingThree">
                               <h5 class="mb-0">
@@ -144,7 +151,7 @@
                                 </a>
                               </h5>
                             </div>
-                            <div id="collapsesix" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div id="collapseeight" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
                               <div class="card-body">
                                 No, Machine learning models are capable of inference on objects in images that the human eye cannot necessarily see.  A larger model input does not necessarily improve the detection/inference result, yet does require more processing.  For this reason, the input of image detection models are often times small.                              </div>
                             </div>
