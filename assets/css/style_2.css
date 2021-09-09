@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Roboto&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.topnav
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.logo
+{
+	flex-direction: column;
+}
+.heading
+{
+	flex-direction: column;
+	margin: auto;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Barlow',sans-serif;
+}
+.nav ul 
+{
+	list-style: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.nav ul li 
+{
+	float: left;
+	margin: auto;
+}
+.nav ul li a
+{
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 20px;
+	font-family: 'Barlow',sans-serif;
+	color: #3498db;
+}
+hr
+{
+	border: 1px solid #999;
+}
+.typo
+{
+	width: 100%;
+	padding: 50px 100px;
+	line-height: 25px;
+}
+.typo h1
+{
+	font-family: 'Barlow',sans-serif;
+}
+.typo p 
+{
+	font-family: 'Roboto',sans-serif;
+}
+.typo ol 
+{
+	padding-left: 50px;
+	font-family: 'Roboto',sans-serif;
+}
+.link
+{
+	width: 100%;
+	height: 40vh;
+	padding-top: 30px;
+	background: #0984e3;
+	text-align: center;
+}
+.link h1
+{
+	font-family: 'Barlow',sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	color: #fff;
+	padding: 25px 0px;
+}
+.link a 
+{
+	background: #fff;
+	margin-top: 50px;
+	padding: 10px 50px;
+	text-decoration: none;
+	font-family: 'Roboto',sans-serif;
+	color: #0984e3;
+	border-radius: 3px;
+}
+.link a:hover
+{
+	color: #333;
+}
+.container
+{
+	width: 100%;
+	height: 100%;
+}
+.container h1
+{
+	text-align: center;
+	padding-top: 20px;
+	font-family: 'Barlow',sans-serif;
+}
+.content
+{
+	margin-top: 50px;
+}
+.content h2
+{
+	font-family: 'Barlow',sans-serif;
+	color: #0984e3;
+	padding-left: 150px;
+	padding-top: 20px;
+}
+.content p 
+{
+	font-family: 'Roboto',sans-serif;
+	padding-left: 150px;
+	padding-top: 20px;
+}
+.info 
+{
+	width: 100%;
+	text-align: center;
+	font-family: 'Barlow',sans-serif;
+	padding-top: 20px;
+	background: aliceblue;
+}
+.footer
+{
+	padding: 50px 0px 20px 0px;
+}
+.footer p 
+{
+	font-family: 'Roboto',sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
